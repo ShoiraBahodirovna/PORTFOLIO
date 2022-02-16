@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: lato-reg;
+  src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: lato-bolt;
+  src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+@font-face {
+  font-family: lato-italic;
+  src: url(../fonts/Lato/Lato-Italic.ttf);
+}
+.sayt {
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 100%;
+  height: auto;
+  font-family: lato-reg;
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  word-spacing: 1.2px;
+}
+.sayt > .sariq {
+  color: #ffd000;
+}
+.sayt > .header {
+  width: 100%;
+  height: 1090px;
+  background: url(../images/orqaFon.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+}
+.sayt > .header > .container {
+  max-width: 1200px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.sayt > .header > .header_top {
+  height: 435px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.sayt > .header > .header_top > .header_top_text {
+  min-height: 330px;
+  max-width: 675px;
+  width: 100%;
+  color: #fff;
+  padding: 0 40px;
+}
+.sayt > .header > .header_top > .header_top_text > h1 {
+  font-size: 150px;
+  font-weight: bold;
+  font-family: lato-bolt;
+}
+.sayt > .header > .header_top > .header_top_text > h1 > .sariq {
+  color: #ffd000;
+}
+.sayt > .header > .header_top > .header_top_text > p {
+  margin-left: 10px;
+}
+.sayt > .header > .header_top > .header_top_text > p > .sariq {
+  color: #ffd000;
+}
+.sayt > .header > .header_top > .header_top_text > a {
+  text-decoration: none;
+  color: #ffd000;
+  margin-left: 10px;
+  line-height: 60px;
+}
+.sayt > .header > .header_buttom {
+  height: 655px;
+  background: url(../images/fon-1.png);
+  background-position: center right;
+}
+.sayt > .header > .header_buttom > .header_buttom_text {
+  max-width: 430px;
+  width: 100%;
+  margin-left: 45px;
+  padding-top: 70px;
+  min-height: 230px;
+  color: #fff;
+}
+.sayt > .header > .header_buttom > .header_buttom_text > h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.sayt > .header > .header_buttom > .header_buttom_text > h2 > .sariq {
+  color: #ffd000;
+}
+.sayt > .header > .header_buttom > .header_buttom_text > .header_buttom_text_nav {
+  margin-top: 58px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.sayt > .header > .header_buttom > .header_buttom_text > .header_buttom_text_nav > a {
+  text-decoration: none;
+  color: #ffd000;
+  margin-right: 30px;
+}
+.sayt > .header > .header_buttom > .header_buttom_text > .header_buttom_text_nav > a:hover {
+  color: white;
+}
+.sayt > .content {
+  height: auto;
+  width: 100%;
+  background: #161616;
+}
+.sayt > .content > .container {
+  max-width: 1200px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.sayt > .content > .content_about {
+  min-height: 220px;
+  width: 100%;
+  color: #575252;
+  padding: 37px;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.sayt > .content > .content_about > .content_about_sublame {
+  height: 220px;
+  max-width: 430px;
+  width: 100%;
+}
+.sayt > .content > .content_about > .content_about_sublame > img {
+  width: 100%;
+  height: auto;
+}
+.sayt > .content > .content_about > .content_about_p {
+  max-width: 670px;
+  width: 100%;
+  min-height: 220px;
+}
+.sayt > .content > .content_about > .content_about_p > .italic {
+  color: #202020;
+  font-size: 18px;
+  font-family: lato-italic;
+  font-weight: 500;
+}
+.sayt > .content > .content_game {
+  min-height: 330px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #fff;
+}
+.sayt > .content > .content_game > .content_game_box {
+  height: 230px;
+  width: 280px;
+  text-align: center;
+  color: #575252;
+  font-size: 13px;
+}
+.sayt > .content > .content_game > .content_game_box > h3 {
+  margin: 22px 0;
+  color: black;
+  font-size: 16px;
+}
+.sayt > .content > .content_game > .content_game_box > .fa {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 30px;
+  padding-top: 10px;
+  border: 1.5px solid orange;
+  background: #e8e8e8;
+}
+.sayt > .content > .content_game > .content_game_box > P {
+  font-size: 10px;
+}
+.sayt > .content > .content_project {
+  height: 690px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: #fff;
+}
+.sayt > .content > .content_project > .content_project_text {
+  width: 370px;
+  height: 90px;
+  margin-left: 60px;
+}
+.sayt > .content > .content_project > .content_project_text > h2 {
+  font-size: 35px;
+}
+.sayt > .content > .content_project > .content_project_text > h2 > .sariq {
+  color: #ffd000;
+}
+.sayt > .content > .content_project > .content_project_text > .content_project_text_nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.sayt > .content > .content_project > .content_project_text > .content_project_text_nav > a {
+  text-decoration: none;
+  color: black;
+  margin-right: 15px;
+  font-size: 10px;
+  word-spacing: 2px;
+  font-weight: bold;
+}
+.sayt > .content > .content_project > .content_project_text > .content_project_text_nav > a:last-child {
+  margin-right: 0;
+}
+.sayt > .content > .content_project > .content_project_text > .content_project_text_nav > a:hover {
+  margin-bottom: 15px;
+  border-bottom: 1.7px solid #f7a50c;
+}
+.sayt > .content > .content_project > .content_project_img {
+  width: 100%;
+  min-height: 540px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.sayt > .content > .content_project > .content_project_img > .content_project_img_box {
+  min-height: 270px;
+  width: 300px;
+}

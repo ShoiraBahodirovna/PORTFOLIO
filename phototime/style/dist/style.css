@@ -1,0 +1,417 @@
+@font-face {
+  font-family: rounded-reg;
+  src: url(../fonts/M_Plus_Rounded/MPLUSRounded1c-Regular.ttf);
+}
+@font-face {
+  font-family: rounded-bold;
+  src: url(../fonts/M_Plus_Rounded/MPLUSRounded1c-Bold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sayt {
+  font-family: rounded-reg;
+  max-width: 1280px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.sayt > .header {
+  height: 750px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.195), rgba(0, 0, 0, 0.195)), url(../imges/Livello1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+  justify-content: space-between;
+}
+.sayt > .header > .header_top {
+  padding-top: 30px;
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  min-height: 90px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.sayt > .header > .header_top > a {
+  text-decoration: none;
+  color: #fff;
+  height: 90px;
+  line-height: 90px;
+  font-size: 16px;
+  font-family: rounded-bold;
+  letter-spacing: 1.2px;
+}
+.sayt > .header > .header_top > img {
+  height: 60px;
+  width: auto;
+}
+.sayt > .header > .header_text {
+  max-width: 560px;
+  min-height: 170px;
+  margin: 0 auto;
+  color: #fff;
+  letter-spacing: 1px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+  justify-content: space-between;
+}
+.sayt > .header > .header_text > h2 {
+  font-size: 30px;
+}
+.sayt > .header > .header_text > p {
+  font-size: 14px;
+}
+.sayt > .header > .header_text > button {
+  border: none;
+  background: #16a085;
+  height: 53px;
+  width: 195px;
+  line-height: 53px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.sayt > .header > .header_text > button > a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+}
+.sayt > .header > .header_icon {
+  text-align: center;
+  padding-bottom: 25px;
+}
+.sayt > .header > .header_icon > .fa {
+  color: #fff;
+  font-size: 22px;
+  margin: 9px;
+}
+.sayt > .content {
+  color: #757575;
+}
+.sayt > .content > .content_top {
+  background: url(../imges/bg-Telefon_q.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 495px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+  justify-content: center;
+}
+.sayt > .content > .content_top > .content_top_text {
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  margin-left: 100px;
+  max-width: 390px;
+  min-height: 330px;
+  padding: 10px;
+  color: #757575;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+  justify-content: space-evenly;
+}
+.sayt > .content > .content_top > .content_top_text > .content_top_text_h3 > h3 {
+  font-size: 14px;
+  color: #12a386;
+  font-family: rounded-bold;
+  letter-spacing: 1.3px;
+  word-spacing: 1px;
+  line-height: 20px;
+}
+.sayt > .content > .content_top > .content_top_text > p {
+  line-height: 20px;
+  letter-spacing: 1.2px;
+}
+.sayt > .content > .content_top > .content_top_text > button {
+  border: none;
+  background: #16a085;
+  height: 53px;
+  width: 195px;
+  line-height: 53px;
+  text-align: center;
+  border-radius: 5px;
+}
+.sayt > .content > .content_top > .content_top_text > button > a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+}
+.sayt > .content > .content_design {
+  min-height: 560px;
+  background: url(../imges/iPhone_bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.sayt > .content > .content_design > .content_design_text {
+  max-width: 530px;
+  min-height: 430px;
+  padding: 10px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+  justify-content: space-evenly;
+}
+.sayt > .content > .content_design > .content_design_text > h3 {
+  font-size: 14px;
+  color: #12a386;
+  font-family: rounded-bold;
+  letter-spacing: 1.3px;
+  word-spacing: 1px;
+  line-height: 20px;
+}
+.sayt > .content > .content_design > .content_design_text > p {
+  line-height: 20px;
+  letter-spacing: 1.2px;
+}
+.sayt > .content > .content_design > .content_design_text > button {
+  border: none;
+  background: #16a085;
+  height: 53px;
+  width: 195px;
+  line-height: 53px;
+  text-align: center;
+  border-radius: 5px;
+}
+.sayt > .content > .content_design > .content_design_text > button > a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+}
+.sayt > .content > .content_design > .content_design_text > .content_design_text_p {
+  font-weight: bold;
+  color: black;
+  font-family: rounded-bold;
+}
+.sayt > .content > .content_design > .content_design_text > .content_design_text_p > .qavs {
+  font-size: 18px;
+  font-family: rounded-bold;
+}
+.sayt > .content > .content_community {
+  min-height: 485px;
+  width: 100%;
+  background: #f5f6f7;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+  justify-content: space-evenly;
+}
+.sayt > .content > .content_community > .content_community_box {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  min-height: 246px;
+}
+.sayt > .content > .content_community > .content_community_box > .content_community_box_card {
+  width: 370px;
+  height: 246px;
+  margin: 0 12px;
+}
+.sayt > .content > .content_community > .content_community_box > .content_community_box_card > img {
+  width: 100%;
+  height: 100%;
+}
+.sayt > .content > .content_community > .content_community_box > .content_community_box_card_text {
+  width: 200px;
+  height: 246px;
+  text-align: center;
+  color: #1a1919;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+  justify-content: space-evenly;
+}
+.sayt > .content > .content_community > .content_community_box > .content_community_box_card_text > img {
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+  height: auto;
+}
+.sayt > .content > .content_subscribe {
+  width: 100%;
+  min-height: 790px;
+  background: url(../imges/bg-qol.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+  justify-content: space-evenly;
+}
+.sayt > .content > .content_subscribe > .content_subscribe_text {
+  max-width: 500px;
+  min-height: 130px;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+  justify-content: space-between;
+}
+.sayt > .content > .content_subscribe > .content_subscribe_text > h2 {
+  font-size: 20px;
+  letter-spacing: 4px;
+  word-spacing: 3px;
+}
+.sayt > .content > .content_subscribe > .content_subscribe_text > .button {
+  max-width: 450px;
+  height: 62px;
+  line-height: 62px;
+  border: none;
+  margin: 0 auto;
+  background: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: none;
+  justify-content: space-between;
+}
+.sayt > .content > .content_subscribe > .content_subscribe_text > .button > a {
+  text-decoration: none;
+  color: black;
+  max-width: 280px;
+  padding: 0 120px 0 25px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  height: 100%;
+  font-family: rounded-bold;
+}
+.sayt > .content > .content_subscribe > .content_subscribe_text > .button > .fa {
+  line-height: 62px;
+  font-size: 25px;
+  width: 70px;
+  color: white;
+  background: #12a386;
+}
+.sayt > .content > .content_download {
+  width: 100%;
+  min-height: 400px;
+  background: #f5f6f7;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+  justify-content: space-evenly;
+}
+.sayt > .content > .content_download > .content_download_taxt {
+  max-width: 860px;
+  min-height: 150px;
+  padding-top: 50px;
+  padding: 10px;
+  color: #141414;
+  margin: 0 auto;
+  text-align: center;
+}
+.sayt > .content > .content_download > .content_download_taxt > h2 {
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+.sayt > .content > .content_download > .content_download_button {
+  max-width: 700px;
+  min-height: 100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.sayt > .content > .content_download > .content_download_button > .button {
+  max-width: 450px;
+  height: 62px;
+  line-height: 62px;
+  border: none;
+  margin: 0 auto;
+  background: #1abc9c;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: none;
+  justify-content: space-between;
+}
+.sayt > .content > .content_download > .content_download_button > .button > a {
+  text-decoration: none;
+  color: black;
+  max-width: 280px;
+  padding: 0 120px 0 25px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  height: 100%;
+  font-family: rounded-bold;
+  color: white;
+}
+.sayt > .content > .content_download > .content_download_button > .button > .fa {
+  line-height: 62px;
+  font-size: 25px;
+  width: 70px;
+  color: white;
+  background: #12a386;
+}
+.sayt > .content > .content_download > .content_download_button > .button:nth-child(1) {
+  margin-right: 30px;
+}
+.sayt > .footer {
+  padding-top: 40px;
+  min-height: 130px;
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.sayt > .footer > .footer_text {
+  max-width: 400px;
+  padding: 10px;
+  min-height: 130px;
+}
+.sayt > .footer > .footer_text > h3 {
+  letter-spacing: 3px;
+  font-size: 13px;
+  line-height: 40px;
+  font-family: rounded-bold;
+}
+.sayt > .footer > .footer_text > h3 > span {
+  border-right: 2px solid #12a386;
+  padding-right: 15px;
+}
+.sayt > .footer > .footer_text > p {
+  font-size: 13px;
+  font-family: rounded-bold;
+  letter-spacing: 1.5px;
+}
+.sayt > .footer > .footer_icon {
+  padding-right: 15px;
+}

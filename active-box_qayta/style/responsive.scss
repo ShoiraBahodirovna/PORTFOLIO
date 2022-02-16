@@ -1,0 +1,143 @@
+@media screen and (max-width:1900px) {
+    .sayt > .content > .gallery > .gallery_box {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width:1400px){
+    .sayt{
+        width: 100vw;
+    }
+    .sayt > .carusel > .carusel-img{
+        width: 1300px;
+        margin: 0 auto;
+    }
+    .sayt > .carusel > .carusel-text {
+            width: 1300px;
+            margin: 0 auto;
+    }
+
+    .sayt > .content > .container > .content_icon > .content_icon-box{
+        margin: 10px auto;
+    }
+
+    .sayt > .container > .insonlar > .insonlar_box {
+        justify-content: space-evenly;
+        
+    }
+    .sayt > .container > .insonlar > .insonlar_box > .insonlar_box_name {
+        margin-bottom: 15px;
+    }
+    
+    
+}
+
+@media screen and (max-width:1190px){
+    .sayt > .header > .header_top{
+        padding-left: 15px;
+    }
+    .sayt > .header > .header_top > .header_top-ul {
+        padding-right: 15px;
+    }
+    .sayt > .header > .header_top > .header_top-ul > li {
+       padding: 0 17px;
+      }
+      .sayt > .footer_button > .container > .footer_button-box{
+        justify-content: space-evenly;
+    }
+    .sayt > .footer_button > .container > .footer_button-box{
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .sayt > .footer_top > .footer_top-box > h4{
+        font-size: 20px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:825px){
+    .sayt > .header > .header_top > .header_top-h2{
+        margin: 0 auto;
+    }
+    .sayt > .header > .header_top > .header_top-ul{
+        margin: 0 auto;
+        padding-right: 0;
+    }
+    .sayt > .header > .header_content {
+        padding: 15px;
+    }
+    .sayt > .header > .header_content > .header_content-flex > h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:630px){
+    .sayt > .header > .header_top > .header_top-ul > li{
+        padding: 0 14px;
+
+        a{
+            font-size: 12px;
+        }
+    }
+
+    .sayt > .footer_button > .container > .footer_button-box > .footer_button-box_kard{
+       margin: 25px auto;
+    }
+
+    .sayt > .footer_top > .footer_top-box > h2{
+        font-size: 20px;
+    }
+    .sayt > .footer_top > .footer_top-box > h4{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:630px){
+    .sayt > .header > .header_content > .header_content-flex > h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:489px){
+    .sayt > .header > .header_top > .header_top-ul > li{
+        padding: 0 10px;
+
+        a{
+            font-size: 10px;
+        }
+    }
+
+    .sayt > .carusel > .carusel-img{
+        height: 200px;
+    }
+    .sayt > .carusel > .carusel-text{
+        min-height: 300px;
+        padding: 15px;
+
+        p{
+            font-size: 16px;
+        }
+
+        h4{
+            font-size: 14px;
+        }
+    }
+}
+@media screen and (max-width:395px){
+    .sayt > .header > .header_top {
+        height: auto;
+    }
+    .sayt > .header > .header_top > .header_top-ul > li{
+        width: 100%;
+        text-align: center;
+        line-height: 40px;
+        a{
+            font-size: 13px;
+        }
+    }
+    .sayt > .header > .header_content{
+        min-height: 500px;
+    }
+
+    
+}

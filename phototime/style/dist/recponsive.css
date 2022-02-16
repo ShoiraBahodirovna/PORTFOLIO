@@ -1,0 +1,48 @@
+@media screen and (max-width: 1011px) {
+  .sayt > .content > .content_community > .content_community_box > .content_community_box_card_text {
+    display: block;
+  }
+
+  .sayt > .content > .content_community > .content_community_box > .content_community_box_card {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 659px) {
+  .sayt > .content > .content_download > .content_download_button {
+    display: block;
+  }
+
+  .sayt > .content > .content_download > .content_download_button > .button:nth-child(1) {
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+
+  .sayt > .content > .content_design > .content_design_text {
+    margin-left: 20px;
+    padding: 15px 45px;
+  }
+
+  .sayt > .content > .content_top > .content_top_text {
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .sayt > .header > .header_top > a {
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  .sayt > .content > .content_top > .content_top_text {
+    padding: 15px 30px;
+    margin-left: 0;
+  }
+
+  .sayt > .content > .content_design > .content_design_text {
+    padding: 15px 30px;
+  }
+}
+@media screen and (max-width: 401px) {
+  .sayt {
+    width: 401px;
+  }
+}

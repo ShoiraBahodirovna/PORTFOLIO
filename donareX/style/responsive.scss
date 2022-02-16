@@ -1,0 +1,361 @@
+@media screen and (max-width:1300px)  {
+    .sayt > .content > .content_bola > .content_bola-odam {
+        
+        right: 0;
+    }
+    .sayt > .content > .content_raqamlar > .strelka {
+        right: -320px;
+    }
+    .sayt > .content > .content_bola{
+        padding: 15px;
+    }
+    .sayt > .content > .content_top, .sayt > .content > .content_raqamlar{
+        padding: 15px;
+    }
+    .sayt > .content > .content_about {
+        padding: 15px;
+    }
+    .sayt > .header > .header_inner{
+        padding: 0 15px;
+    }
+    .sayt > .content > .content_top{
+        padding: 15px;
+    }
+    .sayt > .content > .content_courses{
+        padding: 15px;
+    }
+    .sayt > .content > .content_your{
+        padding: 15px;
+    }
+    .sayt > .content > .content_card{
+        padding: 15px;
+    }
+
+
+}
+
+@media screen and (max-width:1199px) {
+    .sayt > .content > .content_bola > .content_bola-odam {
+        
+        right: 90px;
+    }
+    .sayt > .content > .content_raqamlar > .strelka {
+        right: -220px;
+        top: 40px;
+    }
+}
+
+@media screen and (max-width:1160px){
+    .sayt > .content > .content_top{
+        justify-content: space-evenly;
+    }
+    .sayt > .content > .content_raqamlar{
+        margin-right: 130px;
+        margin-left: auto;
+    }
+    .sayt > .content > .content_raqamlar > .strelka{
+        right: -60px;
+    }
+    .sayt > .content > .content_about{
+        justify-content: space-evenly;
+    }
+    .sayt > .content > .content_your{
+        justify-content: space-evenly;
+    }
+    // .sayt > .content > .content_courses > .courses_text{
+    //     justify-content: space-evenly;
+    // }
+    .sayt > .content > .content_courses > .courses_text_box{
+        justify-content: space-evenly;
+    }
+    .sayt > .content > .content_courses > .courses_text_box > .courses_text_box_icon{
+        margin: 10px;
+    }
+    .sayt > .content > .content_courses > .courses_text_box > .courses_text_box_icon:nth-child(2){
+        margin-left: 40px;
+    }
+
+    .sayt > .content > .content_card > .content_card_buttom{
+        justify-content: space-evenly;
+        
+    }
+    .sayt > .content > .content_card > .content_card_buttom > .content_card_buttom_box{
+        margin: 10px;
+    }
+    .sayt > .content > .content_card > .content_card_buttom > .content_card_buttom_box:nth-child(2){
+        margin-left: 50px;
+    }
+    .sayt > .content > .content_card > .content_card_buttom > .content_card_buttom_box:hover{
+        margin: 20px;
+    }
+    
+}
+@media screen and (max-width:902px){
+    .sayt > .content > .content_courses > .courses_text{
+        justify-content: space-evenly;
+    }
+    .sayt > .content > .content_courses > .courses_button{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .sayt > .content > .content_courses > .courses_text > .courses_text_h2{
+        text-align: center;
+        & > h2{
+            font-size: 35px;
+        }
+    }
+    .sayt > .content > .content_courses > .courses_text > .courses_text_p{
+        margin: 20px auto;
+    }
+    .sayt > .content > .content_raqamlar{
+        margin-right: 80px;
+        margin-left: auto;
+    }
+}
+@media screen and (max-width:990px){
+    .sayt > .content > .content_bola > .content_bola_chuchqa{
+        bottom: -70px;
+        left: 40px;
+    }
+    .sayt > .content > .content_bola > .content_bola-odam{
+        right: 10px;
+        bottom: 120px;
+    }
+    
+
+}
+@media screen and (max-width:890px){
+    .sayt > .content > .content_raqamlar{
+        margin-right: 30px;
+        margin-left: auto;
+        margin-top: 40px;
+    }
+    .sayt > .content > .content_bola > .content_bola_chuchqa{
+        bottom: -20px;
+        left: 20px;
+    }
+    .sayt > .content > .content_raqamlar > .strelka{
+        display: none;
+    }
+    .sayt > .content > .content_card > .content_card_buttom > .content_card_buttom_box:nth-child(2){
+        margin-left: unset;
+    }
+    .sayt > .content > .content_courses > .courses_text_box > .courses_text_box_icon:nth-child(2){
+        margin-left: unset;
+    }
+}
+@media screen and (max-width:671px){
+    .sayt > .header{
+        height: 150px;
+    }
+    .sayt > .header > .header_inner > .header_name {
+        line-height: 75px;
+        padding: 0 15px;
+    }
+    .sayt > .header > .header_inner > .header_nav  {
+        line-height: 75px;
+    }
+    .sayt > .header > .header_inner > .header_nav > a {
+        padding: 0 15px;
+    }
+    .sayt > .header > .header_inner > .header_button{
+        line-height: 75px;
+        padding: 0;
+        margin: 0 auto;
+        width: 315px;
+    }
+    .sayt > .header > .header_inner > .header_button > button {
+        width: 315px;
+    }
+    .sayt > .content > .content_bola > .content_bola-odam {
+        box-shadow: 14px 9px 30px rgba(125, 125, 125, 0.16);
+    }
+    .sayt > .content > .content_bola > .content_bola_chuchqa {
+        box-shadow: 14px 9px 30px rgba(125, 125, 125, 0.16);
+    }
+}
+@media screen and (max-width:606px){
+    .sayt > .content > .content_bola > .content_bola-odam {
+        width: 250px;
+        right: 10px;
+        height: 280px;
+        box-shadow: 5px 4px 12px rgba(125, 125, 125, 0.16);
+        & > img{
+            width: 220px;
+        }
+    }
+    .sayt > .content > .content_bola > .content_bola_chuchqa {
+        width: 250px;
+        left: 10px;
+        height: 280px;
+        bottom: 50px;
+        box-shadow: 5px 4px 12px rgba(125, 125, 125, 0.16);
+        & > img{
+            width: 220px;
+            
+        }
+    }
+    .sayt > .content > .content_top > .content_top_box1 {
+        min-height: 140px;
+    }
+    .sayt > .content > .content_top > .content_top_box1 > h2{
+        font-size: 45px;
+    }
+    .sayt > .content > .content_your > .content_your_img{
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width:545px){
+    .sayt > .header{
+        height: 210px;
+    }
+    .sayt > .header > .header_inner > .header_name {
+        line-height: 65px;
+        padding: 0 15px;
+        margin: 0 auto;
+        font-size: 25px;
+        width: 150px;
+    }
+    .sayt > .header > .header_inner > .header_nav  {
+        line-height: 65px;
+        margin: 0 auto;
+    }
+    .sayt > .header > .header_inner > .header_nav > a {
+        padding: 0 15px;
+    }
+    .sayt > .header > .header_inner > .header_button{
+        line-height: 65px;
+        padding: 0;
+        margin: 0 auto;
+        width: 300px!important;
+    }
+    .sayt > .header > .header_inner > .header_button > button {
+        width: 100%;
+    }
+    
+    .sayt > .content > .content_raqamlar{
+        margin-right: 20px;
+        margin-left: auto;
+    }
+    .sayt > .content > .content_bola > .content_bola_chuchqa {
+        bottom: -85px;
+    }
+    .sayt > .content > .content_bola > .content_bola-odam {
+        bottom: 200px;
+    }
+}
+
+@media screen and (max-width:460px){
+    .sayt > .content > .content_bola > .content_bola_chuchqa {
+        bottom: -85px;
+    }
+    .sayt > .content > .content_bola > .content_bola-odam {
+        bottom: 200px;
+    }
+    .sayt > .content > .content_about > .content_about_img {
+        width: 100%;
+        height: auto;
+    }
+    .sayt > .content > .content_your > .content_your_img {
+        width: 100%;
+        height: auto;
+        
+    }
+    .sayt > .content > .content_raqamlar{
+        margin: 0 auto;
+        margin-top: 80px;
+        justify-content: space-evenly;
+        & > .content_raqamlar_box{
+            height: 100px;
+            width: 115px;
+            & > h2{
+                font-size: 30px;
+                line-height: 30px;
+            }
+
+            & > p{
+                font-size: 12px;
+            }
+        }
+    }
+
+    .sayt > .content > .content_top > .content_top_box1{
+        height: auto;
+        & > h2{
+            font-size: 30px;
+            line-height: 45px;
+        }
+    }
+    .sayt > .content > .content_top > .content_top_box2{
+        height: auto;
+    }
+    .sayt > .content > .content_top > .content_top_box2 > p {
+        font-size: 15px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width:421px){
+    .sayt > .header > .header_inner > .header_nav > a{
+        font-size: 12px;
+        padding: 0 9px;
+    }
+    .sayt > .content > .content_about > .content_about_text {
+        min-height: 398px;
+        & > h2{
+            font-size: 25px;
+            line-height: 35px;
+        }
+    }
+    .sayt > .content > .content_courses > .courses_text > .courses_text_h2 > h2 {
+        font-size: 25px;
+            line-height: 35px;
+            margin-top: 15px;
+    }
+    .sayt > .content > .content_courses > .courses_text > .courses_text_p > p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .sayt > .content > .content_your > .content_your_text > h2{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .sayt > .content > .content_card > .content_card_top > h2{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .sayt > .content > .content_help > .content_help_box > h3{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .sayt > .content > .content_help > .content_help_box > p {
+        font-size: 13px;
+    }
+
+    .sayt > .content > .content_card > .content_card_buttom > .content_card_buttom_box {
+        width: 95%;
+        height: 400px;
+    }
+    .sayt > .content > .content_card > .content_card_buttom > .content_card_buttom_box:hover{
+        transform: scale(1);
+    }
+    .sayt > .content > .content_card > .content_card_buttom > .content_card_buttom_box > img{
+        width: 100%;
+        height: auto;
+    }
+    .sayt > .header > .header_inner{
+        margin: 0 auto;
+    }
+
+    .sayt > .content > .content_raqamlar{
+        width: 100%;
+
+        & > .content_raqamlar_box {
+            height: 100px;
+            width: 110px;
+            padding: 20px;
+        }
+    }
+}

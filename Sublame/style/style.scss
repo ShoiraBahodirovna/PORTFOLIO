@@ -1,0 +1,310 @@
+$black_color: rgb(32, 32, 32);
+$font: lato-reg;
+$oq_color: #fff;
+$grey_color: rgb(87, 82, 82);
+
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+
+}
+@mixin flex($diraction, $wrap, $justify, $align ){
+    display: flex;
+    flex-direction: $diraction;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: lato-reg;
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: lato-bolt;
+    src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: lato-italic;
+    src: url(../fonts/Lato/Lato-Italic.ttf);
+}
+.sayt{
+    margin: 0 auto;
+    max-width: 1400px;
+    width: 100%;
+    height: auto;
+    font-family: $font;
+    font-size: 14px;
+    letter-spacing: .7px;
+    word-spacing: 1.2px;
+    
+    & > .sariq{
+        color: rgb(255, 208, 0);
+    }
+    & > .header{
+        width: 100%;
+        height: 1090px;
+        background: url(../images/orqaFon.png);
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-size: cover;
+
+        & > .container{
+            max-width: 1200px;
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+        }
+        & > .header_top{
+            height: 435px;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+
+            & > .header_top_text{
+                min-height: 330px;
+                max-width: 675px;
+                width: 100%;
+                color: $oq_color;
+                padding: 0 40px;
+              
+                & > h1{
+                    font-size: 150px;
+                    font-weight: bold;
+                    font-family: lato-bolt;
+                    
+
+                    & > .sariq{
+                        color: rgb(255, 208, 0);
+                    }
+                }
+                & > p{
+                    margin-left: 10px;
+                    & > .sariq{
+                        color: rgb(255, 208, 0);
+                    }
+                    
+                }
+
+                & > a{
+                    text-decoration: none;
+                    color: rgb(255, 208, 0);
+                    margin-left: 10px;
+                    line-height: 60px;
+                }
+
+                
+            }
+        }
+        & > .header_buttom{
+            height: 655px;
+            background: url(../images/fon-1.png);
+            background-position: center right;
+
+            & > .header_buttom_text{
+                max-width: 430px;
+                width: 100%;
+                margin-left: 45px;
+                padding-top: 70px;
+                min-height: 230px;
+                color: $oq_color;
+
+                & > h2{
+                    font-size: 48px;
+                    font-weight: bold;
+                    & > .sariq{
+                        color: rgb(255, 208, 0);
+                    }
+                }
+
+                & > .header_buttom_text_nav{
+                    margin-top: 58px;
+                    @include flex-row();
+
+                    & > a{
+                        text-decoration: none;
+                        color: rgb(255, 208, 0);
+                        margin-right: 30px;
+                        
+                        
+                    }
+                    & > a:hover{
+                        color: white;
+                    }
+                }
+            }
+        }
+
+
+
+    }
+
+
+    & > .content{
+        height: auto;
+        width: 100%;
+        background: #161616;
+        & > .container{
+            max-width: 1200px;
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+        }
+        & > .content_about{
+            min-height: 220px;
+            width: 100%;
+            color: $grey_color;
+            padding: 37px;
+            background: #fff;
+            @include flex-row();
+            justify-content: space-between;
+
+            & > .content_about_sublame{
+                height: 220px;
+                max-width: 430px;
+                width: 100%;
+                & > img{
+                    width: 100%;;
+                   height: auto;
+                }
+                
+    
+            }
+
+            & > .content_about_p{
+                max-width: 670px;
+                width: 100%;
+                min-height: 220px;
+                
+                & > .italic{
+                    color: $black_color;
+                    font-size: 18px;
+                    font-family: lato-italic;
+                    font-weight: 500;
+                }
+                
+            }
+        }
+
+
+        & > .content_game{
+            min-height: 330px;
+            @include flex-row();
+            justify-content: space-evenly;
+            align-items: center;
+            background: $oq_color;
+
+            &  > .content_game_box{
+                height: 230px;
+                width: 280px;
+                text-align: center;
+                color: $grey_color;
+                font-size: 13px;
+                padding: 15px;
+                border-radius: 20px;
+                box-shadow: 0 0 5px rgba(128, 128, 128, 0.362);
+                transition: all .2s;
+                & > h3{
+                    margin: 16px 0;
+                    color: black;
+                    font-size: 16px;
+                }
+                & > .fa{
+                    width: 60px;height: 60px;
+                    border-radius: 50%;
+                    font-size: 30px;
+                    padding-top: 10px;
+                    border: 1.5px solid orange;
+                    background: #e8e8e8;
+                    transition: all .2s;
+                }
+                & > .fa:hover{
+                    background: $black_color;
+                    color: $oq_color;
+                    border: 2.5px solid orange;
+                }
+                & > .fa:hover h3{
+                    color: $grey_color;
+                }
+                & > P{
+                    font-size: 10px;
+                }
+            }
+            &  > .content_game_box:hover{
+                box-shadow: 0 0 5px gray;
+                transform: translateY(-10px);
+            }
+        }
+
+
+        & > .content_project{
+            height: 690px;
+            @include flex-column();
+            justify-content: space-evenly;
+            background: #fff;
+           
+
+            & > .content_project_text{
+                width: 370px;
+                height: 90px;
+                margin-left: 60px;
+                & > h2{
+                    font-size: 35px;
+                    & > .sariq{
+                        color: rgb(255, 208, 0);
+                    }
+                }
+                & > .content_project_text_nav{
+                    @include flex-row();
+                    margin-top: 30px;
+
+                    & > a{
+                        text-decoration: none;
+                        color: black;
+                        margin-right: 15px;
+                        font-size: 10px;
+                        word-spacing: 2px;
+                        font-weight: bold;
+                        
+                    }
+                    & > a:last-child{
+                        margin-right: 0;
+                    }
+                    & > a:hover{
+                        margin-bottom: 15px;
+                        border-bottom: 1.7px solid rgb(247, 165, 12);
+                        
+                        
+                    }
+                }
+            }
+
+            & > .content_project_img{
+                width: 100%;
+                min-height: 540px;
+                @include flex-row();
+
+                & > .content_project_img_box{
+                    min-height: 270px;
+                    width: 300px;
+                }
+            }
+        }
+    }
+
+
+}
+
